@@ -1,0 +1,16 @@
+# nexus-price-bus requirements
+# Author: Ridhaant Ajoy Thackur
+
+# Core
+pyzmq>=26.0.0
+pytz>=2024.1
+
+# Equity feed
+yfinance>=0.2.40
+pandas>=2.1.0
+
+# Crypto WebSocket feed
+websocket-client>=1.7.0
+
+# Dev / testing
+pytest>=7.4.0
