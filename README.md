@@ -81,6 +81,16 @@ graph LR
 
 ---
 
+## 📂 Files to Upload
+
+When publishing this standalone repository, upload these exact files from the AlgoStack codebase:
+- `ipc_bus.py` — ZMQ PUB/SUB and Redis abstraction layer
+- `price_service.py` — Multi-source feed aggregator (yfinance, TradingView WS, Binance)
+- `requirements.txt` — (Must include `pyzmq`, `redis`, `yfinance`, `websockets`)
+- This `README.md`
+
+---
+
 ## 🔗 Proven in Production
 
 Extracted from [AlgoStack](https://github.com/Ridhaant/AlgoStack) v10.7's `ipc_bus.py` — battle-tested across **16 concurrent processes** on a live trading system. Handles NSE, MCX, and Binance feeds simultaneously with autonomous reconnection and deduplication.
